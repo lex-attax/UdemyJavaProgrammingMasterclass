@@ -7,6 +7,15 @@ public class BankAccount {
     private String email = null;
     private int phoneNumber = 0;
 
+    public BankAccount(int accountNumber, double balance, String customerName, String email, int phoneNumber) {
+        System.out.println("Account constructor with parameters called");
+        this.accountNumber = accountNumber;
+        this. balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
+
     public void setBalance(double balance){
     this.balance = balance;
     }
