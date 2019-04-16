@@ -20,6 +20,9 @@ public class Main {
         System.out.println(bobsAccount.getNumber());
         System.out.println(bobsAccount.getBalance());
 
+        VipCustomer importantAccount = new VipCustomer();
+        System.out.println("VIP: " + importantAccount.getCreditLimit());
+
         bobsAccount.withdrawal(100.0);
 
         bobsAccount.deposit(50.0);
