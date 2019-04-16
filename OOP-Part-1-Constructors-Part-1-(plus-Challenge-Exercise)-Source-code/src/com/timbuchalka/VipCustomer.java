@@ -6,15 +6,11 @@ public class VipCustomer {
     private String emailAdress;
 
     public VipCustomer(){
-        this.name = "default";
-        this.creditLimit = 10.00;
-        this.emailAdress = "default@default.com";
+        this("Default name", 50000.00, "default@email.com");
     }
 
     public VipCustomer(String name, double creditLimit) {
-        this.name = name;
-        this.creditLimit = creditLimit;
-        this.emailAdress = "default";
+        this(name, creditLimit, "unknown");
 
     }
 
