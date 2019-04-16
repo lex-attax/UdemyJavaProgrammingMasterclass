@@ -6,14 +6,14 @@ public class Animal {
     private int brain;
     private int body;
     private int size;
-    private int wieght;
+    private int weight;
 
-    public Animal(String name, int brain, int body, int size, int wieght) {
+    public Animal(String name, int brain, int body, int size, int weight) {
         this.name = name;
         this.brain = brain;
         this.body = body;
         this.size = size;
-        this.wieght = wieght;
+        this.weight = weight;
     }
 
     public String getName() {
@@ -32,7 +32,7 @@ public class Animal {
         return size;
     }
 
-    public int getWieght() {
-        return wieght;
+    public int getWeight() {
+        return weight;
     }
 }
