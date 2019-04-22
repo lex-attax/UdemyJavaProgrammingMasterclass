@@ -2,7 +2,7 @@ package com.company;
 
 public class Motherboard {
 
-    private String model:
+    private String model;
     private String manufacturer;
     private int ramSlots;
     private int cardSlots;
